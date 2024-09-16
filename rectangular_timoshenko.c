@@ -1,12 +1,14 @@
 #include <iostream>
 #include <iomanip>
 #include <math.h>  // sqrt
+namespace {
 void timoshenko_wave_numbers( double kmax,
                               double gamma2,
                               unsigned mode,
                               bool is_ff,
                               double* aptr,
-                              double* bptr);
+                              double* bptr) {}
+}
 int main()
 {
   double beam_thickness = 1.;
